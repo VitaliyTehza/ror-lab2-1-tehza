@@ -55,6 +55,7 @@ GEM
     arbre (1.1.1)
       activesupport (>= 3.0.0)
     arel (8.0.0)
+<<<<<<< HEAD
     autoprefixer-rails (7.1.6)
       execjs
     bcrypt (3.1.11)
@@ -62,6 +63,10 @@ GEM
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+=======
+    bcrypt (3.1.11)
+    bindex (0.5.0)
+>>>>>>> 9447d49568754c55abf70194e55c5f0e5990da95
     builder (3.2.3)
     byebug (9.1.0)
     capybara (2.15.4)
@@ -247,13 +252,19 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+<<<<<<< HEAD
   bootstrap-sass
+=======
+>>>>>>> 9447d49568754c55abf70194e55c5f0e5990da95
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   devise
   jbuilder (~> 2.5)
+<<<<<<< HEAD
   jquery-rails
+=======
+>>>>>>> 9447d49568754c55abf70194e55c5f0e5990da95
   listen (>= 3.0.5, < 3.2)
   pg
   puma (~> 3.7)

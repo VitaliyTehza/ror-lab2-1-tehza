@@ -5,8 +5,12 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+<<<<<<< HEAD
 gem 'jquery-rails'
 gem 'bootstrap-sass'
+=======
+
+>>>>>>> 9447d49568754c55abf70194e55c5f0e5990da95
 gem 'devise'
 gem 'activeadmin'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
